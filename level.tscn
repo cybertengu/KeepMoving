@@ -1,0 +1,237 @@
+[gd_scene load_steps=7 format=3 uid="uid://b4i7flpnsmg8n"]
+
+[ext_resource type="Script" path="res://level/level.gd" id="1_miawa"]
+[ext_resource type="PackedScene" uid="uid://c07abfp8i36y7" path="res://wall/wall.tscn" id="2_v7ds3"]
+[ext_resource type="PackedScene" uid="uid://y4o6x5ylb8hh" path="res://player/player.tscn" id="3_v4gna"]
+[ext_resource type="PackedScene" uid="uid://4ahxm42hbdin" path="res://enemy/enemy.tscn" id="4_ddcat"]
+[ext_resource type="PackedScene" uid="uid://rw6c6j36eqah" path="res://ui/ui.tscn" id="6_lq0wr"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_6s5cy"]
+size = Vector2(435, 275)
+
+[node name="Level" type="Node2D"]
+script = ExtResource("1_miawa")
+
+[node name="Grid" type="Node2D" parent="."]
+
+[node name="Wall" parent="Grid" instance=ExtResource("2_v7ds3")]
+position = Vector2(64, 64)
+
+[node name="Wall2" parent="Grid" instance=ExtResource("2_v7ds3")]
+position = Vector2(64, 192)
+
+[node name="Wall3" parent="Grid" instance=ExtResource("2_v7ds3")]
+position = Vector2(64, 320)
+
+[node name="Wall4" parent="Grid" instance=ExtResource("2_v7ds3")]
+position = Vector2(64, 448)
+
+[node name="Wall5" parent="Grid" instance=ExtResource("2_v7ds3")]
+position = Vector2(64, 576)
+
+[node name="Wall6" parent="Grid" instance=ExtResource("2_v7ds3")]
+position = Vector2(64, 704)
+
+[node name="Wall7" parent="Grid" instance=ExtResource("2_v7ds3")]
+position = Vector2(64, 704)
+
+[node name="Wall8" parent="Grid" instance=ExtResource("2_v7ds3")]
+position = Vector2(64, 832)
+
+[node name="Wall9" parent="Grid" instance=ExtResource("2_v7ds3")]
+position = Vector2(64, 960)
+
+[node name="Wall10" parent="Grid" instance=ExtResource("2_v7ds3")]
+position = Vector2(192, 64)
+
+[node name="Wall11" parent="Grid" instance=ExtResource("2_v7ds3")]
+position = Vector2(320, 64)
+
+[node name="Wall12" parent="Grid" instance=ExtResource("2_v7ds3")]
+position = Vector2(448, 64)
+
+[node name="Wall13" parent="Grid" instance=ExtResource("2_v7ds3")]
+position = Vector2(576, 64)
+
+[node name="Wall14" parent="Grid" instance=ExtResource("2_v7ds3")]
+position = Vector2(704, 64)
+
+[node name="Wall15" parent="Grid" instance=ExtResource("2_v7ds3")]
+position = Vector2(832, 64)
+
+[node name="Wall16" parent="Grid" instance=ExtResource("2_v7ds3")]
+position = Vector2(960, 64)
+
+[node name="Wall17" parent="Grid" instance=ExtResource("2_v7ds3")]
+position = Vector2(1088, 64)
+
+[node name="Wall18" parent="Grid" instance=ExtResource("2_v7ds3")]
+position = Vector2(1216, 64)
+
+[node name="Wall19" parent="Grid" instance=ExtResource("2_v7ds3")]
+position = Vector2(1344, 64)
+
+[node name="Wall20" parent="Grid" instance=ExtResource("2_v7ds3")]
+position = Vector2(1472, 64)
+
+[node name="Wall21" parent="Grid" instance=ExtResource("2_v7ds3")]
+position = Vector2(1600, 64)
+
+[node name="Wall22" parent="Grid" instance=ExtResource("2_v7ds3")]
+position = Vector2(1728, 64)
+
+[node name="Wall23" parent="Grid" instance=ExtResource("2_v7ds3")]
+position = Vector2(1856, 64)
+
+[node name="Wall24" parent="Grid" instance=ExtResource("2_v7ds3")]
+position = Vector2(1856, 192)
+
+[node name="Wall25" parent="Grid" instance=ExtResource("2_v7ds3")]
+position = Vector2(1856, 320)
+
+[node name="Wall26" parent="Grid" instance=ExtResource("2_v7ds3")]
+position = Vector2(1856, 320)
+
+[node name="Wall27" parent="Grid" instance=ExtResource("2_v7ds3")]
+position = Vector2(1856, 448)
+
+[node name="Wall28" parent="Grid" instance=ExtResource("2_v7ds3")]
+position = Vector2(1856, 576)
+
+[node name="Wall29" parent="Grid" instance=ExtResource("2_v7ds3")]
+position = Vector2(1856, 704)
+
+[node name="Wall30" parent="Grid" instance=ExtResource("2_v7ds3")]
+position = Vector2(1856, 832)
+
+[node name="Wall31" parent="Grid" instance=ExtResource("2_v7ds3")]
+position = Vector2(1856, 960)
+
+[node name="Wall32" parent="Grid" instance=ExtResource("2_v7ds3")]
+position = Vector2(1856, 1088)
+
+[node name="Wall33" parent="Grid" instance=ExtResource("2_v7ds3")]
+position = Vector2(64, 1088)
+
+[node name="Wall34" parent="Grid" instance=ExtResource("2_v7ds3")]
+position = Vector2(192, 1088)
+
+[node name="Wall35" parent="Grid" instance=ExtResource("2_v7ds3")]
+position = Vector2(320, 1088)
+
+[node name="Wall36" parent="Grid" instance=ExtResource("2_v7ds3")]
+position = Vector2(448, 1088)
+
+[node name="Wall37" parent="Grid" instance=ExtResource("2_v7ds3")]
+position = Vector2(576, 1088)
+
+[node name="Wall38" parent="Grid" instance=ExtResource("2_v7ds3")]
+position = Vector2(704, 1088)
+
+[node name="Wall39" parent="Grid" instance=ExtResource("2_v7ds3")]
+position = Vector2(832, 1088)
+
+[node name="Wall40" parent="Grid" instance=ExtResource("2_v7ds3")]
+position = Vector2(960, 1088)
+
+[node name="Wall41" parent="Grid" instance=ExtResource("2_v7ds3")]
+position = Vector2(1088, 1088)
+
+[node name="Wall42" parent="Grid" instance=ExtResource("2_v7ds3")]
+position = Vector2(1216, 1088)
+
+[node name="Wall43" parent="Grid" instance=ExtResource("2_v7ds3")]
+position = Vector2(1344, 1088)
+
+[node name="Wall44" parent="Grid" instance=ExtResource("2_v7ds3")]
+position = Vector2(1472, 1088)
+
+[node name="Wall45" parent="Grid" instance=ExtResource("2_v7ds3")]
+position = Vector2(1728, 1088)
+
+[node name="Wall46" parent="Grid" instance=ExtResource("2_v7ds3")]
+position = Vector2(192, 497)
+
+[node name="Wall47" parent="Grid" instance=ExtResource("2_v7ds3")]
+position = Vector2(388, 194)
+
+[node name="Wall48" parent="Grid" instance=ExtResource("2_v7ds3")]
+position = Vector2(652, 183)
+
+[node name="Wall49" parent="Grid" instance=ExtResource("2_v7ds3")]
+position = Vector2(188, 768)
+
+[node name="Wall50" parent="Grid" instance=ExtResource("2_v7ds3")]
+position = Vector2(1734, 412)
+
+[node name="Wall51" parent="Grid" instance=ExtResource("2_v7ds3")]
+position = Vector2(1613, 412)
+
+[node name="Wall52" parent="Grid" instance=ExtResource("2_v7ds3")]
+position = Vector2(1485, 416)
+
+[node name="Wall53" parent="Grid" instance=ExtResource("2_v7ds3")]
+position = Vector2(1357, 419)
+
+[node name="Wall54" parent="Grid" instance=ExtResource("2_v7ds3")]
+position = Vector2(1357, 287)
+
+[node name="Wall55" parent="Grid" instance=ExtResource("2_v7ds3")]
+position = Vector2(954, 953)
+
+[node name="Wall56" parent="Grid" instance=ExtResource("2_v7ds3")]
+position = Vector2(958, 818)
+
+[node name="Wall57" parent="Grid" instance=ExtResource("2_v7ds3")]
+position = Vector2(954, 686)
+
+[node name="Wall58" parent="Grid" instance=ExtResource("2_v7ds3")]
+position = Vector2(844, 686)
+
+[node name="Wall59" parent="Grid" instance=ExtResource("2_v7ds3")]
+position = Vector2(716, 690)
+
+[node name="Wall60" parent="Grid" instance=ExtResource("2_v7ds3")]
+position = Vector2(584, 690)
+
+[node name="Wall61" parent="Grid" instance=ExtResource("2_v7ds3")]
+position = Vector2(584, 562)
+
+[node name="Wall62" parent="Grid" instance=ExtResource("2_v7ds3")]
+position = Vector2(1735, 751)
+
+[node name="Wall63" parent="Grid" instance=ExtResource("2_v7ds3")]
+position = Vector2(1617, 747)
+
+[node name="Wall64" parent="Grid" instance=ExtResource("2_v7ds3")]
+position = Vector2(1495, 744)
+
+[node name="Player" parent="." instance=ExtResource("3_v4gna")]
+position = Vector2(223, 199)
+
+[node name="Enemies" type="Node2D" parent="."]
+
+[node name="enemy2" parent="Enemies" instance=ExtResource("4_ddcat")]
+position = Vector2(1313, 700)
+
+[node name="enemy3" parent="Enemies" instance=ExtResource("4_ddcat")]
+position = Vector2(368, 893)
+
+[node name="UI" parent="." instance=ExtResource("6_lq0wr")]
+offset_right = 1920.0
+offset_bottom = 1080.0
+
+[node name="Exit" type="Area2D" parent="."]
+position = Vector2(1532, 1222)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Exit"]
+position = Vector2(67.5, 49.5)
+shape = SubResource("RectangleShape2D_6s5cy")
+
+[connection signal="pauseEnemies" from="." to="Enemies/enemy2" method="_on_level_pause_enemies"]
+[connection signal="pauseEnemies" from="." to="Enemies/enemy3" method="_on_level_pause_enemies"]
+[connection signal="moving" from="Player" to="." method="_on_player_moving"]
+[connection signal="hit_player" from="Enemies/enemy2" to="." method="_on_enemy_hit_player"]
+[connection signal="hit_player" from="Enemies/enemy3" to="." method="_on_enemy_hit_player"]
+[connection signal="restart_game" from="UI" to="." method="_on_ui_restart_game"]
+[connection signal="body_entered" from="Exit" to="." method="_on_exit_body_entered"]
